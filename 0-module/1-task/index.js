@@ -1,9 +1,4 @@
-/**
- * Power
- * @param {number} m base
- * @param {number} n index
- * @returns {number}
- */
-function sum(m, n) {
-
+function sum(x,y){
+	return (x + y);
 }
+alert ( sum(5,2) );
