@@ -1,11 +1,6 @@
-/**
- * Клонируем объект
- * @param {Object} obj - клонируем объект
- * @returns {Object}
- */
-function clone(obj) {
+function clone(obj){
     let second = {};
-    for (let key in obj) {
+    for (var key in obj) {
         second[key] = obj[key];
     }
     return second;
