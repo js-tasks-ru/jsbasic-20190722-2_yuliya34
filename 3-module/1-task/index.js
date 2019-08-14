@@ -13,8 +13,8 @@ function showSalary(data, age) {
         });
         return filteredData;
     }
-    let filteredData = getBy(data, age);
+    let filteredData1 = getBy(data, age);
 
-    return result = filteredData.map(a => a.name + ', ' + a.balance)
-        .join(', ');
+    return result = filteredData1.map(a => a.name + ', ' + a.balance)
+        .join('\n');
 }
