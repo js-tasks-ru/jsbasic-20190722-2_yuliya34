@@ -5,7 +5,7 @@
  */
     function getMinMax(str){
 
-        let arr = str.split(' ');
+        let arr = str.split(' ').join(',').split(',');
 
         for(let i=0; i<arr.length; i++)
             arr[i] = parseFloat(arr[i]);
