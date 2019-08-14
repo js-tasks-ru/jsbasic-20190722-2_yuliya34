@@ -7,10 +7,10 @@
 
         let arr = str.split(' ').join(',').split(',');
 
-        for(let i=0; i<arr.length; i++)
+        for(let i=0; i<arr.length; i++) {
             arr[i] = parseFloat(arr[i]);
-
-        arr2 = arr.filter(function(v){return v === +v});
+        }
+        let arr2 = arr.filter(function(v){return v === +v});
 
         function arrayMin(arr2) {
             let len = arr2.length, min = Infinity;
